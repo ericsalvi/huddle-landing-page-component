@@ -16,8 +16,9 @@
 body {
   background-color: var(--violet);
   background-image: url("../images/bg-mobile.svg");
+  background-position: center top;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 120%;
   color: white;
   display: flex;
   flex-direction: column;
