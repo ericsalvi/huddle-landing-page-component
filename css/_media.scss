@@ -1,0 +1,74 @@
+@media (min-width: 1050px) {
+  body {
+    background-image: url("../images/bg-desktop.svg");
+    background-size: cover;
+    column-gap: 50px;
+    display: grid;
+    grid-template-areas:
+      "header"
+      "main"
+      "footer";
+    grid-template-columns: 1fr;
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 54px 78px 20px 70px;
+  }
+  .main.container {
+    display: flex;
+    gap: 46px;
+  }
+  header {
+    grid-area: header;
+    grid-row: 1;
+    svg {
+      width: 215px;
+    }
+  }
+  div[role="img"] {
+    align-items: center;
+    flex: 1 0 calc(57% - 23px);
+    grid-area: main;
+    img {
+      max-width: 710px;
+    }
+  }
+  main {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 calc(43% - 23px);
+    justify-content: flex-start;
+    max-width: 100%;
+    padding-top: 62px;
+    text-align: left;
+    h1 {
+      font-size: 2.5rem;
+    }
+    p {
+      font-size: 1.12rem;
+      padding-top: 8px;
+    }
+    .cta {
+      font-size: 1.12rem;
+      padding: 14px 62px;
+    }
+  }
+  footer {
+    grid-area: footer;
+    justify-content: flex-end;
+  }
+  .social {
+    gap: 16px;
+    .social__icons {
+      height: 40px;
+      width: 40px;
+      &:last-child .fab {
+        transform: scale(1.2);
+      }
+      .fab {
+        transform: scale(1);
+      }
+    }
+  }
+}
