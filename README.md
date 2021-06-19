@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontendmentor.io](https://www.frontendmentor.io/solutions/huddle-landing-page-solution-a-scss-use-first-for-me-D-EVB2lyv)
+- Live Site URL: [https://ericsalvi.github.io/huddle-landing-page-component/](https://ericsalvi.github.io/huddle-landing-page-component/)
 
 ## My process
 
